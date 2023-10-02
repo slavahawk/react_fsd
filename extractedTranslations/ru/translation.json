@@ -2,6 +2,8 @@
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
     " Maxime, voluptas?": " Maxime, voluptas?"
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
   "Войти": "Войти",
   "Главная": "Главная",
@@ -12,7 +14,5 @@
   "Переключить": "Переключить",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
   "Страница не найдена": "Страница не найдена",
-  "Язык": "Язык",
-  "increment": "increment",
-  "decrement": "decrement"
+  "Язык": "Язык"
 }
