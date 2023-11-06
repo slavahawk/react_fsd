@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
-    --font-family-main: consolas, "Times New Roman", serif;
+    --font-family-main: inconsolata, "Times New Roman", serif;
+    --font-size-s: 14px;
+    --font-line-s: 18px;
+    --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
     --font-size-m: 16px;
     --font-line-m: 24px;
     --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);

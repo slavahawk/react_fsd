@@ -10,6 +10,7 @@ const MainPage = () => {
         <div>
             {t('Главная страница')}
             <Counter />
+
         </div>
     );
 };
