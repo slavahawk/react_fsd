@@ -4,14 +4,16 @@ import React, {
 } from 'react';
 import cls from './Input.module.scss';
 
-type HTMLInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'value' | 'onChange'>
+type HTMLInputProps = Omit<
+    InputHTMLAttributes<HTMLInputElement>,
+    'value' | 'onChange'
+>;
 
-interface InputProps extends HTMLInputProps{
-  className?: string;
-  value? :string;
-  onChange?: (value: string) => void;
-  autofocus?: boolean
-
+interface InputProps extends HTMLInputProps {
+    className?: string;
+    value?: string | number;
+    onChange?: (value: string) => void;
+    autofocus?: boolean;
 }
 export const Input = (props: InputProps) => {
     const {
